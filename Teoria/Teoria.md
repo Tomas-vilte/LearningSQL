@@ -1,4 +1,4 @@
-# Teoría de SQL - Sintaxis SELECT
+# Teoría de SQL y sintaxis
 
 Este repositorio contiene una guía completa de la sintaxis de SQL junto con su explicación teórica. Aquí encontrarás ejemplos y descripciones de cómo utilizar diferentes elementos y cláusulas en SQL para manipular bases de datos relacionales.
 
@@ -8,3 +8,10 @@ Este repositorio contiene una guía completa de la sintaxis de SQL junto con su 
 
 Sintaxis:
 * SELECT column_1, column_2, … FROM table_name
+
+
+- [SELECT DISTINCT](https://www.w3schools.com/sql/sql_distinct.asp): Es una declaración que se usa para devolver solo valores distintos (diferentes). Dentro de una tabla, una columna suele contener muchos valores duplicados; y, a veces, solo desea enumerar los diferentes valores (distintos).
+
+Sintaxis: SELECT DISTINCT column_1, column_2 FROM table_name
+
+
