@@ -14,4 +14,13 @@ Sintaxis:
 
 Sintaxis: SELECT DISTINCT column_1, column_2 FROM table_name
 
+- [WHERE](https://www.w3schools.com/sql/sql_where.asp): WHERE se utiliza para filtrar registros.
+Se utiliza para extraer solo aquellos registros que cumplen una condición específica.
 
+Sintaxis: SELECT column_1, column_2 FROM table_name WHERE condition
+
+Cuando utilizamos WHERE la búsqueda la podemos realizar con un filtro de tipo carácter o de tipo numérico. Los tipo carácter debemos colocarlos entre comillas y los numéricos no.
+
+
+
+Además podemos combinar el filtro where con otros operadores como IN, BETWEEN o LIKE cuya finalidad es realizar búsquedas de patrones.
