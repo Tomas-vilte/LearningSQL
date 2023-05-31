@@ -24,3 +24,19 @@ Cuando utilizamos WHERE la búsqueda la podemos realizar con un filtro de tipo c
 
 
 Además podemos combinar el filtro where con otros operadores como IN, BETWEEN o LIKE cuya finalidad es realizar búsquedas de patrones.
+
+- [Los operadores AND, OR and NOT](https://www.w3schools.com/sql/sql_and_or.asp): WHERE se puede combinar con los operadores AND, OR NOT
+
+Los operadores AND y OR se utilizan para filtrar registros en función de más de una condición:
+
+El operador AND muestra un registro si todas las condiciones separadas por AND son VERDADERAS.
+
+El operador OR muestra un registro si alguna de las condiciones separadas por OR es VERDADERA.
+
+El operador NOT muestra un registro si la(s) condición(es) NO ES VERDADERA.
+
+La sintaxis AND: SELECT column_1, column_2, … FROM tabla_name WHERE condition_1 AND condition_2 AND condition_3,…
+
+La sintaxis OR: SELECT column_1, column_2, … FROM tabla_name WHERE condition_1 OR condition_2 OR condition_3,…
+
+La sintaxis NOT: SELECT column_1, column_2, … FROM tabla_name WHERE NOT condition
