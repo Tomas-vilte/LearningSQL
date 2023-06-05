@@ -40,3 +40,16 @@ La sintaxis AND: SELECT column_1, column_2, … FROM tabla_name WHERE condition_
 La sintaxis OR: SELECT column_1, column_2, … FROM tabla_name WHERE condition_1 OR condition_2 OR condition_3,…
 
 La sintaxis NOT: SELECT column_1, column_2, … FROM tabla_name WHERE NOT condition
+
+- [ORDER BY](https://www.w3schools.com/sql/sql_orderby.asp): Se utiliza para clasificar el conjunto de resultados en orden ascendente o descendente.
+
+    ORDER BY ordena los registros en orden ascendente de forma predeterminada.
+    
+    Para ordenar los registros en orden descendente, se debe colocar DESC
+
+Sintaxis: SELECT column_1, column_2, …
+
+FROM tabla_name
+
+ORDER BY column_1, column_2, … ASC | DESC
+

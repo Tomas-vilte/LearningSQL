@@ -5,4 +5,4 @@
 
 -- Ejercicio: Muestra los registros pero que no aparezca Brazil
 
-SELECT * FROM country WHERE country NOT 'brazil'
+SELECT * FROM country WHERE NOT country = 'brazil'
