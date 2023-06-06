@@ -53,3 +53,35 @@ FROM tabla_name
 
 ORDER BY column_1, column_2, … ASC | DESC
 
+
+- [Sintaxis Funciones de agregación](https://www.simplilearn.com/tutorials/sql-tutorial/sql-aggregate-functions)
+
+Sintaxis:
+    COUNT() devuelve el número de filas que coincide con un criterio específico.
+
+
+    SELECT COUNT (column_name) FROM table_name WHERE condition
+
+AVG() devuelve el valor promedio de una columna numérica
+
+Sintaxis:
+
+    SELECT AVG (column_name) FROM table_name WHERE condition
+
+SUM() devuelve la suma total de una columna numérica
+
+Sintaxis:
+
+    SELECT SUM (column_name) FROM table_name WHERE condition
+
+MIN() devuelve el valor mas pequeño de la columna seleccionada
+
+Sintaxis:
+
+    SELECT MIN (column_name) FROM table_name WHERE condition
+
+MAX() devuelve el valor mas grande de la columna seleccionada
+
+Sintaxis:
+
+    SELECT MAX (column_name) FROM table_name WHERE condition
