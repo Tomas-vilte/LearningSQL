@@ -85,3 +85,14 @@ MAX() devuelve el valor mas grande de la columna seleccionada
 Sintaxis:
 
     SELECT MAX (column_name) FROM table_name WHERE condition
+
+[GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp): Agrupa filas que tienen los mismos valores. GROUP BY se usa a menudo con funciones agregadas ( COUNT(), MAX(), MIN(), SUM(), AVG()) para agrupar el conjunto de resultados por una o más columnas.
+
+Sintaxis:
+
+    SELECT column_name (s)
+    FROM tabla_name
+    WHERE condition
+    GROUP BY column_name(s)
+    ORDER BY column_name(s)
+
