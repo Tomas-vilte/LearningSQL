@@ -108,3 +108,19 @@ Sintaxis:
     ORDER BY column_name(s)
 
 [INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp): Selecciona registros que tienen valores coincidentes en ambas tablas.
+
+Sintaxis:
+
+    SELECT column_name(s)
+    FROM table1
+    INNER JOIN table2
+    ON table1.column_name = table2.column_name;
+
+[LEFT JOIN](https://www.w3schools.com/sql/sql_join_left.asp): Devuelve todos los registros de la tabla de la izquierda (tabla1) y los registros coincidentes de la tabla de la derecha (tabla2). El resultado es 0 registros del lado derecho, si no hay coincidencia.
+
+Sintaxis:
+
+    SELECT column_name(s)
+    FROM table1
+    LEFT JOIN table2
+    ON table1.column_name = table2.column_name;
