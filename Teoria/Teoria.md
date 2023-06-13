@@ -124,3 +124,12 @@ Sintaxis:
     FROM table1
     LEFT JOIN table2
     ON table1.column_name = table2.column_name;
+
+[RIGHT JOIN](https://www.w3schools.com/sql/sql_join_right.asp): Devuelve todos los registros de la tabla de la derecha (tabla2) y los registros coincidentes de la tabla de la izquierda (tabla1). El resultado es 0 registros del lado izquierdo, si no hay ninguna coincidencia.
+
+Sintaxis:
+
+    SELECT column_name(s)
+    FROM table1
+    RIGHT JOIN table2
+    ON table1.column_name = table2.column_name;
