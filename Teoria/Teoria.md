@@ -107,3 +107,4 @@ Sintaxis:
     HAVING condition
     ORDER BY column_name(s)
 
+[INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp): Selecciona registros que tienen valores coincidentes en ambas tablas.
