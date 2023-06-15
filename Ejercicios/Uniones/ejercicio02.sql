@@ -1,0 +1,1 @@
+-- Consulta utilizando JOINS
