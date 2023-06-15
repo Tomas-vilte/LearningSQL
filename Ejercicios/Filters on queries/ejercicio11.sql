@@ -1,3 +1,5 @@
--- Actores que contengan "o" en su nombre y en una "AN" en su apellido
+-- Consulta la tabla payment de la base de datos sakila.
 
-SELECT * FROM Actores WHERE first_name LIKE "%o%" AND last_name LIKE "%AN%"
+-- ¿Cuál es la cantidad mas baja y mas alta de la columna amount?
+
+SELECT DISTINCT amount FROM sakila.payment ORDER BY amount ASC
