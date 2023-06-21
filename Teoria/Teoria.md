@@ -133,3 +133,11 @@ Sintaxis:
     FROM table1
     RIGHT JOIN table2
     ON table1.column_name = table2.column_name;
+
+[IN](https://www.w3schools.com/sql/sql_in.asp): El IN operador le permite especificar múltiples valores en una WHERE cláusula. El IN operador es una forma abreviada de múltiples OR condiciones.
+
+Sintaxis:
+
+    SELECT column_name(s)
+    FROM table_name
+    WHERE column_name IN (value1, value2, ...);
