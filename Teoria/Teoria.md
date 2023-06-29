@@ -155,3 +155,7 @@ Sintaxis:
     [UCASE()](https://www.w3schools.com/mysql/func_mysql_ucase.asp): Es una función de cadena de texto que se utiliza para convertir todos los caracteres de una cadena a mayúsculas.
 
     [LCASE()](https://www.w3schools.com/mysql/func_mysql_lcase.asp): La función LCASE() convierte una cadena a minúsculas.
+
+2. Funciones numéricas:
+    
+    [ROUND()](https://www.w3schools.com/mysql/func_mysql_round.asp): Redondea un número al número de decimales especificado.
