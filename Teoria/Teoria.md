@@ -147,6 +147,11 @@ Sintaxis:
 1. Funciones de cadena de texto:
     
     [CHAR_LENGTH()](https://www.w3schools.com/mysql/func_mysql_char_length.asp): Devuelve la longitud en caracteres de una cadena
+
+    Sintaxis de CHAR_LENGHT:
+
+        SELECT *, CHAR_LENGTH(first_name) AS "Longitud de Cadena"
+        FROM sakila.customer;
     
     [CONCAT()](https://www.w3schools.com/mysql/func_mysql_concat.asp): Concatena dos o más cadenas de texto.
 
