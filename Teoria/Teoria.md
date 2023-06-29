@@ -148,7 +148,8 @@ Sintaxis:
     
     [CHAR_LENGTH()](https://www.w3schools.com/mysql/func_mysql_char_length.asp): Devuelve la longitud en caracteres de una cadena
     
-    
     [CONCAT()](https://www.w3schools.com/mysql/func_mysql_concat.asp): Concatena dos o más cadenas de texto.
 
     [CONCAT_WS()](https://www.w3schools.com/mysql/func_mysql_concat_ws.asp): La función CONCAT_WS() agrega dos o más expresiones junto con un separador.
+
+    [UCASE()](https://www.w3schools.com/mysql/func_mysql_ucase.asp): Es una función de cadena de texto que se utiliza para convertir todos los caracteres de una cadena a mayúsculas.
