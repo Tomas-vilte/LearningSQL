@@ -141,3 +141,9 @@ Sintaxis:
     SELECT column_name(s)
     FROM table_name
     WHERE column_name IN (value1, value2, ...);
+
+[Funciones utiles](https://www.w3schools.com/mysql/mysql_ref_functions.asp): En este enlace, encontrarás una lista de funciones útiles en MySQL que puedes utilizar en tus consultas SQL para realizar operaciones y manipulaciones avanzadas de datos. A continuación, se muestran algunas de las funciones destacadas:
+
+1. Funciones de cadena de texto:
+    
+    [CHAR_LENGTH()](https://www.w3schools.com/mysql/func_mysql_char_length.asp): Devuelve la longitud en caracteres de una cadena
