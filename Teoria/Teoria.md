@@ -181,3 +181,7 @@ Sintaxis:
 2. Funciones numéricas:
     
     [ROUND()](https://www.w3schools.com/mysql/func_mysql_round.asp): Redondea un número al número de decimales especificado.
+
+    Sintaxis de ROUND:
+
+        SELECT ROUND(135.375, 2);
