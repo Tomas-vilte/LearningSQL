@@ -162,6 +162,10 @@ Sintaxis:
 
     [CONCAT_WS()](https://www.w3schools.com/mysql/func_mysql_concat_ws.asp): La función CONCAT_WS() agrega dos o más expresiones junto con un separador.
 
+    Sintaxis de CONCAT_WS:
+
+        SELECT CONCAT_WS("-", "SQL", "Tutorial", "is", "fun!") AS ConcatenatedString;
+
     [UCASE()](https://www.w3schools.com/mysql/func_mysql_ucase.asp): Es una función de cadena de texto que se utiliza para convertir todos los caracteres de una cadena a mayúsculas.
 
     [LCASE()](https://www.w3schools.com/mysql/func_mysql_lcase.asp): La función LCASE() convierte una cadena a minúsculas.
